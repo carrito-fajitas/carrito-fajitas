@@ -1,5 +1,5 @@
 <% if (navScope === "") { %>
-    <div class="col-xs-12 no-padding min-height">
+    <div class="col-xs-12 no-padding">
         <a class="menu-button" href="/auth/facebook"><img class="icon fb" src="/visual-assets/facebook-icon.png"></a>
     </div>
     
@@ -18,17 +18,14 @@
     </div>
 
 <% } else if (navScope === "recipes") { %>  
-    <div class="col-xs-3 no-padding">
+    <div class="col-xs-4 no-padding">
         <a class="menu-button menu-new" href="/recipes/new"><img class="icon" src="/visual-assets/add-icon.png"></a>
     </div>
-    <div class="col-xs-3 no-padding">
+    <div class="col-xs-4 no-padding">
         <a class="menu-button menu-fav" href="/recipes/fav"><img class="icon" src="/visual-assets/fav-icon.png"></a>
     </div>
-    <div class="col-xs-3 no-padding">
+    <div class="col-xs-4 no-padding">
         <a class="menu-button menu-search" href="/recipes/search"><img class="icon" src="/visual-assets/search-icon.png"></a>
-    </div>
-    <div class="col-xs-3 no-padding">
-        <a class="menu-button menu-new" href="/events/new"><img class="icon" src="/visual-assets/cart-icon.png"></a>
     </div>
 
 <% } else if (navScope === "profile") { %>  
